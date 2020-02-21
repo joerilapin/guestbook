@@ -7,6 +7,7 @@ error_reporting(E_ALL);
 
 require 'Controller/homepagecontroller.php';
 echo 'test';
+
 $control= new HomeController;
 $control->render();
 

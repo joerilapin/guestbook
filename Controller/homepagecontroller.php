@@ -1,11 +1,12 @@
 
 <?php
 
-declare(strict_types=1);
 class HomeController
 {
     public function render (){
-    echo 'test';
+
+        //I need the loading here to be able to render, how?-->loadpost
+
         require 'View/home.php';
     }
 

@@ -10,7 +10,7 @@ class guestbookpost
     private $content;
     private $author;
 
-    //publieke functies
+    //public functions or methods of the class
     public function
     public function
     public function

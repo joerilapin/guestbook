@@ -28,13 +28,6 @@
                 <textarea id="content" name="content" placeholder="Your message here!"></textarea>
                 <label for="author">Your Name:</label>
                 <input type="text" id="author" name="author" placeholder="Your name here!">
-                <label for="display">How many posts to display:</label>
-                <select name = "display">
-                    <option>5</option>
-                    <option>10</option>
-                    <option>15</option>
-                    <option>20</option>
-                </select>
                 <button type="submit">Post</button>
             </form>
         </div>
