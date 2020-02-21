@@ -34,12 +34,24 @@ file_put_contents($file, $current1);
 echo($current1);
 //echo($current2);*/
 
-echo 'test';
+declare(strict_types=1);
+
+ini_set('display_errors', "1");
+ini_set('display_startup_errors', "1");
+error_reporting(E_ALL);
+
+/*echo 'test';
 $control= new HomeController
-$control->render();
+$control->render();*/
+
+require 'Controller/homepagecontroller.php';
+require 'Model/guestpookpost';
+
+session_start();
 
 
 
-?>
+
+
 
 
