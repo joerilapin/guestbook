@@ -11,6 +11,9 @@
 
 //output naar screen: invoervelden
 <body class="text-center">
+<?php
+require 'Model/guestbookpost.php';
+?>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -33,6 +36,11 @@
         </div>
     </div>
 </div>
+<p>hello</p>
+<?php
+$arrayObject = new Guestbookpost();
+print_r($arrayObject->getArray());
+?>
 </body>
 
 </html>
