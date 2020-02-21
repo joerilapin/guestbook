@@ -1,4 +1,3 @@
-<?php
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,7 +9,37 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
+//output naar screen: invoervelden
+<body class="text-center">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>My Guestbook</h1>
+            <h3>Please leave a message!</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <form method="post">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" placeholder="Your title here!">
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" placeholder="Your message here!"></textarea>
+                <label for="author">Your Name:</label>
+                <input type="text" id="author" name="author" placeholder="Your name here!">
+                <label for="display">How many posts to display:</label>
+                <select name = "display">
+                    <option>5</option>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                </select>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>
